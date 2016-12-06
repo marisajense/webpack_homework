@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1 class="center">ES6 | Webpack</h1>
+  <hr />
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card grey darken-3">
+          <div class="card-content white-text">
+            <span class="card-title">Default Parameters</span>
+            <p class="info">Default parameters allow us to initialize functions with default values.<br />
+                  example: <br />
+                  function multiply(a, b = 1) { <br />
+                  return a*b; <br />
+                } <br />
+
+                  multiply(5); // 5</p>
+            <div class="card-action">
+              <div class="btn orange black-text show-content">Show</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card grey darken-3">
+          <div class="card-content white-text">
+            <span class="card-title">Rest Parameter</span>
+            <p class="info">The rest parameter syntax allows us to represent an indefinite number of arguments as an array.<br />
+                        example: <br />
+                        function(a, b, ...theArgs) { <br />
+                        // ... <br />
+                        }</p>
+            <div class="card-action">
+              <div class="btn orange black-text show-content">Show</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card grey darken-3">
+          <div class="card-content white-text">
+            <span class="card-title">Class Declarations</span>
+            <p class="info">One way to define a class is using a class declaration. To declare a class, you use the class keyword with the name of the class ("Polygon" here).<br />
+                        example: <br />
+                        class Polygon { <br />
+                        this.height = height; { <br />
+                        this.width = width; <br />
+                          &nbsp  } <br />
+                          } <br /></p>
+            <div class="card-action">
+              <div class="btn orange black-text show-content">Show</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card grey darken-3">
+          <div class="card-content white-text">
+            <span class="card-title">Sub classing with <i>extends</i></span>
+            <p class="info">The extends keyword is used in class declarations or class expressions to create a class as a child of another class.<br />
+                  example: <br />
+                  class Animal { <br />
+                  &nbsp constructor(name) {  <br />
+                   &nbsp &nbsp this.name = name; <br />
+                  } <br />
+                  &nbsp speak() { <br />
+                  &nbsp &nbsp console.log(this.name + ' makes a noise.'); <br />
+                  &nbsp } <br />
+                } <br />
+                  class Dog extends Animal { <br />
+                  &nbsp speak() { <br />
+                  &nbsp &nbsp console.log(this.name + ' barks.'); <br />
+                  &nbsp  } <br />
+                } <br />
+                var d = new Dog('Mitzie'); <br />
+                d.speak(); <br /></p>
+            <div class="card-action">
+              <div class="btn orange black-text show-content">Show</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="app.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  </body>
+</html>

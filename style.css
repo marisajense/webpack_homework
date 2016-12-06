@@ -1,0 +1,21 @@
+body {
+  background: #0D5D8C;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+h1 {
+  text-shadow: 2px 2px black;
+}
+
+.info {
+  display: none;
+}
+
+.card-title {
+  text-shadow: 4px 4px black;
+}
+
+.btn {
+  box-shadow: 4px 4px black;
+}
